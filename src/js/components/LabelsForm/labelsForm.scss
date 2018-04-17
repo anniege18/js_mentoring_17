@@ -1,0 +1,32 @@
+.form {
+  padding: 10px 15px;
+  background-color: rgba(255,255,255,.8);
+}
+
+.input {
+  outline: none;
+}
+
+.submit {
+  padding: 2px 3px;
+  margin-top: 5px;
+  border-radius: 2px;
+  border: none;
+  background-color: #bbbbbb;
+  color: #343334;
+}
+
+.list {
+  padding-top: 15px;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.label {
+  padding-left: 4px;
+}

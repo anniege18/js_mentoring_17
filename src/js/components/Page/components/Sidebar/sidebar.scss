@@ -1,0 +1,22 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid #e0dcdc;
+}
+
+.navList {
+  padding-top: 30px;
+}
+
+.navItem {
+  padding: 10px 5px 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.activeNavLink {
+  font-weight: bold;
+}

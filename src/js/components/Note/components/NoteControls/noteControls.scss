@@ -1,0 +1,16 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+
+  &Btn {
+    padding: 2px 4px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: #bbbbbb;
+    color: white;
+    outline: none;
+    cursor: default;
+  }
+}

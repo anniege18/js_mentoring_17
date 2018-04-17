@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  z-index: 999;
+}

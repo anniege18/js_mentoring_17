@@ -1,0 +1,17 @@
+.search {
+  &Input {
+    width: 400px;
+    height: 46px;
+    padding: 11px 16px 11px 16px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.1);
+    outline: none;
+
+    &:focus {
+      background: white;
+    }
+  }
+}

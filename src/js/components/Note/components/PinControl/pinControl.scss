@@ -1,0 +1,21 @@
+.pin {
+  display: flex;
+  align-self: flex-end;
+  padding: 3px 4px;
+  border: none;
+  border-radius: 1px;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transition: all .1s;
+
+  &:hover {
+    background-color: white;
+    color: grey;
+  }
+
+  &Active {
+    background-color: #d35d47;
+  }
+}
